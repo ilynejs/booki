@@ -7,6 +7,7 @@
 	--main-color: #0065fc;
 	--main-bg-color: #f2f2f2;
 	--filter-bg-color: #deebff;
+	--strokes: #d9d9d9;
 }
 
 .fa-solid {
@@ -17,9 +18,14 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 .main-container {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+
 	width: 100%;
 	max-width: 1440px;
 	padding: 0 50px;
