@@ -1,6 +1,12 @@
 @import url('reset.css');
 @import url('main.css');
 
-/* composants */
+/* Sections */
 @import url('header.css');
 @import url('informations.css');
+@import url('hebergements.css');
+@import url('popular.css');
+@import url('activities.css');
+
+/* Composants */
+@import url('card.css');
