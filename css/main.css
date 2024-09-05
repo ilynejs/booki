@@ -21,6 +21,12 @@ body {
 	align-items: center;
 }
 
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+
 .main-container {
 	display: flex;
 	flex-direction: column;
@@ -64,7 +70,7 @@ a {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
 	.main-container {
 		width: 100%;
 		max-width: 1440px;

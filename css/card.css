@@ -81,15 +81,6 @@
 
 /****** Responsive ******/
 @media screen and (max-width: 1024px) {
-	.popular-cards {
-		flex-direction: row;
-		justify-content: space-between;
-	}
-
-	.popular-cards a {
-		width: 30%;
-	}
-
 	.popular-cards .card-title {
 		font-size: 14px;
 	}
