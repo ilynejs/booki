@@ -6,7 +6,7 @@
 	gap: 35px;
 }
 
-.info-group__headline {
+.info-group-headline {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
