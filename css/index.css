@@ -3,10 +3,13 @@
 
 /* Sections */
 @import url('header.css');
+
 @import url('informations.css');
 @import url('hebergements.css');
 @import url('popular.css');
 @import url('activities.css');
 
-/* Composants */
+@import url('footer.css');
+
+/* Components */
 @import url('card.css');
