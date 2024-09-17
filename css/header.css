@@ -21,11 +21,22 @@
 	gap: 50px;
 }
 
-.header-nav > ul > li {
+.header-nav > ul > li > a {
+	margin-top: 2px;
 	padding: 15px 0;
 }
 
-.header-nav .active {
+.header-nav > ul > li > a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 100%;
+}
+
+.header-nav > ul > li > a:hover {
+	margin-top: 0;
 	border-top: solid 2px var(--main-color);
 	color: var(--main-color);
 }
@@ -47,15 +58,19 @@
 		gap: 0;
 	}
 
+	.header-nav > ul > li > a {
+		margin-top: 0;
+		border-bottom: solid 2px var(--main-bg-color);
+	}
+
 	.header-nav > ul > li {
 		display: flex;
 		justify-content: center;
 
 		width: 100%;
-		border-bottom: solid 2px var(--main-bg-color);
 	}
 
-	.header-nav .active {
+	.header-nav > ul > li > a:hover {
 		border-top: none;
 		border-bottom: solid 2px var(--main-color);
 	}
