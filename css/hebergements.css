@@ -27,3 +27,15 @@
 		width: 100%;
 	}
 }
+
+@media (max-width: 768px) {
+	.hebergements-list {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.hebergements-list .hebergement-item img {
+		width: 100%;
+		/* height: 200px; */
+	}
+}
